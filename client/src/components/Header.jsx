@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <Navbar className="border-b-2 bg-pink-500 text-white">
       <Link to="/" className="self-center whitespace-norap text-sm sm:text-xl font-semibold dark:text-white">
-        <span className="px-2 py-1 bg-gray-800 rounded-lg">Pets</span>
+        <span className="px-2 py-1 bg-cyan-800 rounded-lg">Pets</span>
         Blog
       </Link>
       <form>
@@ -27,7 +27,7 @@ export default function Header() {
         <FaMoon/>
         </Button>
         <Link to="/sign-in">
-        <Button className="bg-gray-800">Sign In</Button>
+        <Button className="bg-gray-800" outline>Sign In</Button>
         </Link> 
         <Navbar.Toggle/>     
       </div>
